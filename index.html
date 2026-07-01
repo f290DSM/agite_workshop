@@ -4,93 +4,104 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Landing page sobre o Framework Scrum na metodologia Agil.">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Scrum na Pratica Agil</title>
 </head>
 <body>
-  <header>
-    <nav aria-label="Navegacao principal">
-      <a href="#">Scrum Agil</a>
-      <ul>
-        <li><a href="#">Visao geral</a></li>
-        <li><a href="#">Papeis</a></li>
-        <li><a href="#">Eventos</a></li>
-        <li><a href="#">Artefatos</a></li>
+  <header class="site-header">
+    <nav class="main-nav container" aria-label="Navegacao principal">
+      <a class="brand" href="#">Scrum Agil</a>
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#visao-geral">Visao geral</a></li>
+        <li><a class="nav-link" href="#papeis">Papeis</a></li>
+        <li><a class="nav-link" href="#eventos">Eventos</a></li>
+        <li><a class="nav-link" href="#artefatos">Artefatos</a></li>
       </ul>
     </nav>
 
-    <section>
-      <p>Framework Scrum para equipes ageis</p>
+    <section class="hero container">
+      <p class="eyebrow">Framework Scrum para equipes ageis</p>
       <h1>Transforme ideias complexas em entregas incrementais de valor</h1>
       <p>
         Scrum ajuda equipes a organizar trabalho, aprender com ciclos curtos e entregar
         produtos melhores por meio de transparencia, inspecao e adaptacao.
       </p>
-      <a href="#">Explorar o framework</a>
+      <a class="button" href="#scrum-framework">Explorar o framework</a>
     </section>
   </header>
 
   <main>
-    <section>
-      <p>Por que Scrum?</p>
-      <h2>Agilidade com foco, ritmo e colaboracao</h2>
-      <p>
-        Em ambientes de mudanca constante, Scrum oferece uma estrutura leve para alinhar
-        pessoas, prioridades e entregas sem perder a capacidade de responder ao novo.
-      </p>
-    </section>
-
-    <section>
-      <article>
-        <h3>Transparencia</h3>
-        <p>O trabalho, os objetivos e os impedimentos ficam visiveis para todos.</p>
-      </article>
-      <article>
-        <h3>Inspecao</h3>
-        <p>A equipe revisa progresso, produto e processo em ciclos frequentes.</p>
-      </article>
-      <article>
-        <h3>Adaptacao</h3>
-        <p>Aprendizados viram ajustes rapidos no backlog, no plano e na forma de trabalhar.</p>
-      </article>
-    </section>
-
-    <section>
-      <section>
-        <p>Framework</p>
-        <h2>Scrum organiza o trabalho em Sprints</h2>
+    <section class="section container">
+      <div class="section-header">
+        <p class="eyebrow">Por que Scrum?</p>
+        <h2>Agilidade com foco, ritmo e colaboracao</h2>
         <p>
-          Uma Sprint e um ciclo curto no qual a equipe planeja, executa, revisa e aprende.
-          O objetivo e criar incrementos de produto que possam ser avaliados e melhorados.
+          Em ambientes de mudanca constante, Scrum oferece uma estrutura leve para alinhar
+          pessoas, prioridades e entregas sem perder a capacidade de responder ao novo.
         </p>
-      </section>
+      </div>
 
-      <aside>
-        <h3>Essencia do Scrum</h3>
-        <p>Pequenos ciclos, feedback constante e responsabilidade compartilhada.</p>
-      </aside>
+      <div class="scrum-pillars">
+        <article class="card">
+          <h3>Transparencia</h3>
+          <p>O trabalho, os objetivos e os impedimentos ficam visiveis para todos.</p>
+        </article>
+        <article class="card">
+          <h3>Inspecao</h3>
+          <p>A equipe revisa progresso, produto e processo em ciclos frequentes.</p>
+        </article>
+        <article class="card">
+          <h3>Adaptacao</h3>
+          <p>Aprendizados viram ajustes rapidos no backlog, no plano e na forma de trabalhar.</p>
+        </article>
+      </div>
     </section>
 
-    <section>
-      <p>Papeis</p>
-      <h2>Responsabilidades claras para colaborar melhor</h2>
-      <article>
-        <h3>Product Owner</h3>
-        <p>Maximiza valor, ordena o Product Backlog e esclarece prioridades.</p>
-      </article>
-      <article>
-        <h3>Scrum Master</h3>
-        <p>Facilita o uso do Scrum, remove impedimentos e apoia a melhoria continua.</p>
-      </article>
-      <article>
-        <h3>Developers</h3>
-        <p>Transformam itens do backlog em incrementos prontos, testados e demonstraveis.</p>
-      </article>
+    <section id="scrum-framework" class="section">
+      <div class="framework-panel container">
+        <section id="visao-geral" class="section-header">
+          <p class="eyebrow">Framework</p>
+          <h2>Scrum organiza o trabalho em Sprints</h2>
+          <p>
+            Uma Sprint e um ciclo curto no qual a equipe planeja, executa, revisa e aprende.
+            O objetivo e criar incrementos de produto que possam ser avaliados e melhorados.
+          </p>
+        </section>
+
+        <aside class="framework-note">
+          <h3>Essencia do Scrum</h3>
+          <p>Pequenos ciclos, feedback constante e responsabilidade compartilhada.</p>
+        </aside>
+      </div>
     </section>
 
-    <section>
-      <p>Eventos</p>
-      <h2>Rituais que criam cadencia e aprendizado</h2>
-      <ol>
+    <section id="papeis" class="section container">
+      <div class="section-header">
+        <p class="eyebrow">Papeis</p>
+        <h2>Responsabilidades claras para colaborar melhor</h2>
+      </div>
+      <div class="roles-grid">
+        <article class="card">
+          <h3>Product Owner</h3>
+          <p>Maximiza valor, ordena o Product Backlog e esclarece prioridades.</p>
+        </article>
+        <article class="card">
+          <h3>Scrum Master</h3>
+          <p>Facilita o uso do Scrum, remove impedimentos e apoia a melhoria continua.</p>
+        </article>
+        <article class="card">
+          <h3>Developers</h3>
+          <p>Transformam itens do backlog em incrementos prontos, testados e demonstraveis.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="eventos" class="section container">
+      <div class="section-header">
+        <p class="eyebrow">Eventos</p>
+        <h2>Rituais que criam cadencia e aprendizado</h2>
+      </div>
+      <ol class="events-timeline">
         <li>
           <strong>Sprint Planning:</strong> define objetivo, itens selecionados e plano inicial.
         </li>
@@ -106,27 +117,33 @@
       </ol>
     </section>
 
-    <section>
-      <p>Artefatos</p>
-      <h2>Informacao visivel para tomar melhores decisoes</h2>
-      <article>
-        <h3>Product Backlog</h3>
-        <p>Lista ordenada do que pode gerar valor para o produto.</p>
-      </article>
-      <article>
-        <h3>Sprint Backlog</h3>
-        <p>Plano da Sprint com objetivo, itens selecionados e trabalho necessario.</p>
-      </article>
-      <article>
-        <h3>Incremento</h3>
-        <p>Resultado integrado e pronto para ser inspecionado ao final do ciclo.</p>
-      </article>
+    <section id="artefatos" class="section container">
+      <div class="section-header">
+        <p class="eyebrow">Artefatos</p>
+        <h2>Informacao visivel para tomar melhores decisoes</h2>
+      </div>
+      <div class="artifacts">
+        <article class="card">
+          <h3>Product Backlog</h3>
+          <p>Lista ordenada do que pode gerar valor para o produto.</p>
+        </article>
+        <article class="card">
+          <h3>Sprint Backlog</h3>
+          <p>Plano da Sprint com objetivo, itens selecionados e trabalho necessario.</p>
+        </article>
+        <article class="card">
+          <h3>Incremento</h3>
+          <p>Resultado integrado e pronto para ser inspecionado ao final do ciclo.</p>
+        </article>
+      </div>
     </section>
 
-    <section>
-      <p>Beneficios</p>
-      <h2>O que uma equipe ganha ao praticar Scrum?</h2>
-      <ul>
+    <section class="section container">
+      <div class="section-header">
+        <p class="eyebrow">Beneficios</p>
+        <h2>O que uma equipe ganha ao praticar Scrum?</h2>
+      </div>
+      <ul class="benefits-grid">
         <li>Mais alinhamento entre objetivo, prioridade e execucao.</li>
         <li>Feedback mais rapido sobre o produto construido.</li>
         <li>Visibilidade sobre progresso, riscos e bloqueios.</li>
@@ -134,17 +151,17 @@
       </ul>
     </section>
 
-    <section>
+    <section class="cta-section container">
       <h2>Pronto para experimentar Scrum?</h2>
       <p>
         Comece com uma meta clara, um backlog simples e uma Sprint curta para aprender
         rapido com uma entrega real.
       </p>
-      <a href="#">Comecar pela visao geral</a>
+      <a class="button" href="#visao-geral">Comecar pela visao geral</a>
     </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <p>Landing page educacional sobre Scrum para a disciplina Gestao Agil de Projetos de Software.</p>
   </footer>
 </body>

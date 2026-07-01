@@ -11,15 +11,15 @@
 
 Para considerar a atividade concluida, o grupo deve cumprir:
 
-- [ ] Sprint 1 planejada com tarefas separadas para HTML5 e CSS3.
-- [ ] Branch `feature/html5-scrum-professor` criada a partir da `main`.
-- [ ] Branch `feature/css3-scrum-caua` criada a partir da `main`.
-- [ ] `index.html` criado em HTML5 puro, sem `class`, sem `id` e sem link para CSS.
-- [ ] `assets/css/styles.css` criado com CSS3 responsivo e seletores planejados.
-- [ ] Commits criados com mensagens claras no padrao Conventional Commits.
-- [ ] Pull Requests abertos para a `main`.
-- [ ] Cada PR revisado por outra pessoa.
-- [ ] Branches da Sprint 1 integradas na `main`.
+- [ X ] Sprint 1 planejada com tarefas separadas para HTML5 e CSS3.
+- [ X ] Branch `feature/html5-scrum-professor` criada a partir da `main`.
+- [ X ] Branch `feature/css3-scrum-caua` criada a partir da `main`.
+- [ X ] `index.html` criado em HTML5 puro, sem `class`, sem `id` e sem link para CSS.
+- [ X ] `assets/css/styles.css` criado com CSS3 responsivo e seletores planejados.
+- [ X ] Commits criados com mensagens claras no padrao Conventional Commits.
+- [ X ] Pull Requests abertos para a `main`.
+- [ X ] Cada PR revisado por outra pessoa.
+- [ X ] Branches da Sprint 1 integradas na `main`.
 - [ ] Sprint 2 criada para integrar HTML + CSS.
 - [ ] Classes, ids e link do CSS aplicados no HTML durante a integracao.
 - [ ] Validacao registrada pelo professor.
