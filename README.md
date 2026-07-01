@@ -1,178 +1,93 @@
-# Simulacao de Sprint Scrum + Git - Landing Page
+# Sprint Backlog - Aula 01: Landing Page Scrum
 
-## Informacoes Gerais
-
-- **Disciplina:** Gestao Agil de Projetos de Software
-- **Atividade:** Desenvolvimento de uma Landing Page em grupo
-- **Aula 1:** 30/06/2026 - Ritos, planejamento e inicio da execucao
-- **Aula 2:** 01/07/2026 - Entrega, evidencias e fechamento
-- **Duracao prevista:** 19h as 22h (3 horas por encontro)
-- **Equipe:** Equipe do PI-3
-- **Professor:** Esdras Bezerra da Silva
-
----
-
-## Objetivo da Atividade
-
-Praticar o fluxo completo de uma Sprint Scrum curta, com enfase em colaboracao, entrega incremental e uso de Git/GitHub:
-
-- Sprint Planning
-- Organizacao do Sprint Backlog
-- Execucao de tarefas individuais
-- Commits com mensagens claras
-- Pull Requests
-- Code Review
-- Merge na branch `main`
-- Sprint Review
-- Sprint Retrospective
-
----
-
-## Estrutura em 2 Aulas
-
-### Aula 1 - Ritos e Inicio da Sprint (30/06/2026)
-
-Foco: entender e praticar os ritos iniciais.
-
-1. Criar o repositorio publico do grupo a partir deste template.
-2. Definir o objetivo da Sprint.
-3. Preencher o [SPRINT_BACKLOG.md](./SPRINT_BACKLOG.md).
-4. Distribuir pelo menos 1 tarefa por aluno.
-5. Definir a Definition of Done (DoD).
-6. Criar branches individuais.
-7. Iniciar a implementacao da landing page.
-8. Fazer commits e push das branches.
-
-### Aula 2 - Entrega e Fechamento (01/07/2026)
-
-Foco: evidenciar entrega, processo e aprendizado.
-
-1. Confirmar backlog, tarefas e responsaveis.
-2. Finalizar a landing page.
-3. Garantir pelo menos 1 commit por aluno.
-4. Abrir Pull Request para `main`.
-5. Revisar pelo menos 1 PR de colega.
-6. Responder comentarios de review, quando houver.
-7. Fazer merge apos aprovacao.
-8. Demonstrar a landing page na Sprint Review.
-9. Preencher a [RETROSPECTIVE.md](./RETROSPECTIVE.md).
-10. Registrar bloqueios e pendencias com transparencia.
-
----
-
-## Roteiro de Fechamento - 01/07/2026
-
-### 1. Abertura e alinhamento - 10 min
-
-- Relembrar que a aula anterior focou nos ritos Scrum.
-- Explicar que o fechamento avalia produto, processo e evidencias.
-- Revisar a Definition of Done no [SPRINT_BACKLOG.md](./SPRINT_BACKLOG.md).
-
-### 2. Organizacao dos grupos - 10 min
-
-Cada grupo deve confirmar:
-
-- repositorio publico criado;
-- backlog preenchido;
-- tarefas distribuidas por aluno;
-- branches criadas;
-- commits realizados;
-- PRs abertos e revisados;
-- merges feitos ou impedimentos registrados.
-
-### 3. Tempo final de execucao - 45 a 60 min
-
-- Finalizar a landing page.
-- Conferir se cada aluno tem evidencia de participacao.
-- Abrir e revisar Pull Requests.
-- Fazer merge na `main` apos aprovacao.
-- Atualizar backlog, bloqueios e retrospectiva.
-
-### 4. Sprint Review - 3 min por grupo
-
-Cada grupo apresenta:
-
-- landing page funcionando;
-- link do repositorio publico;
-- principais secoes ou funcionalidades entregues;
-- evidencias de commits, PRs e reviews;
-- itens incompletos, se houver.
-
-### 5. Sprint Retrospective - 5 a 8 min por grupo
-
-Cada grupo registra:
-
-- o que funcionou bem;
-- o que pode melhorar;
-- uma acao concreta para a proxima Sprint.
-
-### 6. Fechamento docente - 10 min
-
-- Reforcar a diferenca entre entregar codigo e entregar processo.
-- Destacar boas praticas observadas.
-- Explicar que a avaliacao considera produto, colaboracao e evidencias.
+**Grupo:** Professor Esdras e Cauã  
+**Data da Sprint:** 30/06/2026 e 01/07/2026  
+**Duracao da Sprint:** 2 sprints simuladas  
+**Objetivo da Aula 01:** Simular o fluxo Scrum + Git/GitHub criando uma landing page sobre o Framework Scrum, com branches separadas para HTML5 e CSS3 e uma sprint posterior de integracao e validacao.
 
 ---
 
 ## Definition of Done (DoD)
 
-Uma tarefa ou entrega so deve ser considerada concluida quando:
+Para considerar a atividade concluida, o grupo deve cumprir:
 
-- a funcionalidade ou secao da landing page estiver implementada;
-- o codigo estiver commitado com mensagem clara;
-- a branch tiver sido enviada para o repositorio remoto;
-- houver Pull Request aberto para `main`;
-- o PR tiver sido revisado por pelo menos 1 colega;
-- comentarios de review tiverem sido respondidos, quando existirem;
-- o merge tiver sido realizado ou o bloqueio estiver registrado;
-- a demonstracao funcionar na Sprint Review.
-
----
-
-## Entregaveis
-
-- Link do repositorio publico do grupo.
-- Landing page acessivel ou demonstravel localmente.
-- [SPRINT_BACKLOG.md](./SPRINT_BACKLOG.md) preenchido.
-- [RETROSPECTIVE.md](./RETROSPECTIVE.md) preenchido.
-- Historico de commits com mensagens claras.
-- Pull Requests criados, revisados e mergeados.
-- Evidencia de participacao individual de cada aluno.
+- [ ] Sprint 1 planejada com tarefas separadas para HTML5 e CSS3.
+- [ ] Branch `feature/html5-scrum-professor` criada a partir da `main`.
+- [ ] Branch `feature/css3-scrum-caua` criada a partir da `main`.
+- [ ] `index.html` criado em HTML5 puro, sem `class`, sem `id` e sem link para CSS.
+- [ ] `assets/css/styles.css` criado com CSS3 responsivo e seletores planejados.
+- [ ] Commits criados com mensagens claras no padrao Conventional Commits.
+- [ ] Pull Requests abertos para a `main`.
+- [ ] Cada PR revisado por outra pessoa.
+- [ ] Branches da Sprint 1 integradas na `main`.
+- [ ] Sprint 2 criada para integrar HTML + CSS.
+- [ ] Classes, ids e link do CSS aplicados no HTML durante a integracao.
+- [ ] Validacao registrada pelo professor.
+- [ ] Landing page demonstrada na Sprint Review.
+- [ ] Retrospectiva preenchida em `RETROSPECTIVE.md`.
 
 ---
 
-## Criterios de Avaliacao
+## Sprint 1 - Criacao Separada dos Artefatos
 
-- **Produto entregue:** landing page funcional e minimamente organizada.
-- **Scrum aplicado:** backlog, planning, review e retrospectiva registrados.
-- **Git aplicado:** branch, commit, push, PR, review e merge.
-- **Colaboracao:** cada aluno participou com tarefa ou revisao.
-- **Transparencia:** bloqueios e pendencias foram registrados.
+Objetivo: demonstrar trabalho paralelo em branches independentes, com responsabilidades claras.
 
----
-
-## Regras e Boas Praticas
-
-- **Commits:** use mensagens claras no padrao Conventional Commits, como `feat:`, `fix:` e `docs:`.
-- **Branches:** nomeie como `feature/nome-da-tarefa-seu-nome`.
-- **Pull Requests:** use titulo claro, descricao objetiva e evidencias de teste quando possivel.
-- **Code Review:** seja respeitoso, construtivo e especifico.
-- **Bloqueios:** registre impedimentos no backlog em vez de omitir problemas.
+| # | Tarefa | Descricao | Responsavel | Branch | Status | Criterios de Aceitacao |
+|---|--------|-----------|-------------|--------|--------|------------------------|
+| 1 | Criar estrutura HTML5 da landing page | Criar `index.html` com conteudo sobre Scrum usando HTML5 semantico, sem `class`, sem `id` e sem link para CSS. | Professor Esdras | `feature/html5-scrum-professor` | A fazer | Arquivo abre no navegador, comunica o tema Scrum e preserva HTML puro para integracao futura. |
+| 2 | Criar estilos CSS3 responsivos | Criar `assets/css/styles.css` com layout mobile-first, variaveis CSS, grid/flex, hover/focus e seletores planejados. | Cauã | `feature/css3-scrum-caua` | A fazer | CSS contem hooks como `.site-header`, `.hero`, `.roles-grid`, `.events-timeline`, `.artifacts`, `.cta-section` e `#scrum-framework`. |
+| 3 | Revisar PR de HTML5 | Avaliar clareza, semantica, conteudo e ausencia de classes/ids no HTML. | Cauã | PR da branch HTML | A fazer | PR revisado com comentario objetivo e aprovacao ou solicitacao de ajuste. |
+| 4 | Revisar PR de CSS3 | Avaliar responsividade, organizacao, seletores planejados e aderencia ao tema visual. | Professor Esdras | PR da branch CSS | A fazer | PR revisado com comentario objetivo e aprovacao ou solicitacao de ajuste. |
+| 5 | Integrar entregas da Sprint 1 | Realizar merge dos PRs aprovados na `main`. | Professor Esdras e Cauã | `main` | A fazer | `main` contem HTML e CSS como arquivos separados, ainda sem integracao funcional completa. |
 
 ---
 
-## Grupos
+## Sprint 2 - Integracao e Validacao
 
-1. SeuByte
-2. Draxen
-3. SJSystem
-4. BuildSync
+Objetivo: conectar os artefatos da Sprint 1, validar a entrega e demonstrar a pagina final.
+
+| # | Tarefa | Descricao | Responsavel | Branch | Status | Criterios de Aceitacao |
+|---|--------|-----------|-------------|--------|--------|------------------------|
+| 6 | Criar branch de integracao | Criar `feature/integracao-html-css-validacao` a partir da `main` apos os merges da Sprint 1. | Professor Esdras | `feature/integracao-html-css-validacao` | A fazer | Branch criada a partir da `main` atualizada com HTML e CSS. |
+| 7 | Integrar CSS ao HTML | Adicionar `<link rel="stylesheet" href="assets/css/styles.css">` e aplicar classes/ids planejados no HTML. | Professor Esdras e Cauã | `feature/integracao-html-css-validacao` | A fazer | HTML passa a usar os hooks definidos no CSS e a pagina carrega os estilos corretamente. |
+| 8 | Validar integracao e responsividade | Testar a landing page em navegador, conferir ancoras, carregamento do CSS e responsividade em celular, tablet e desktop. | Professor Esdras | `feature/integracao-html-css-validacao` | A fazer | Validacao registrada em `VALIDACAO.md`, incluindo resultados e observacoes. |
+| 9 | Revisar entrega integrada | Conferir se a pagina comunica Scrum, papeis, eventos, artefatos, beneficios e chamada final. | Cauã | PR da branch de integracao | A fazer | PR revisado com foco em qualidade visual, conteudo e funcionamento. |
+| 10 | Demonstrar Sprint Review | Apresentar fluxo Git, arquivos criados, PRs, integracao e landing page funcionando. | Professor Esdras e Cauã | `main` | A fazer | Entrega demonstrada e evidencias registradas no backlog. |
 
 ---
 
-**Boa Sprint!**
+## Evidencias de Git e GitHub
 
-O foco e colaborar, aprender, entregar valor e deixar evidencias claras do processo.
+| Pessoa | Tarefa relacionada | Link ou hash do commit | Link do Pull Request | PR revisado por | Merge realizado? |
+|--------|--------------------|------------------------|----------------------|-----------------|------------------|
+| Professor Esdras | Criar HTML5 puro |                        |                      | Cauã            |                  |
+| Cauã | Criar CSS3 responsivo |                        |                      | Professor Esdras |                  |
+| Professor Esdras e Cauã | Integrar HTML + CSS |                        |                      | Cauã            |                  |
+| Professor Esdras | Validar integracao |                        |                      | Professor Esdras |                  |
 
-**Professor:** `Esdras B Silva`  
-**Contato:** `esdras.silva@cps.sp.gov.br`
+---
+
+## Sprint Review
+
+**Link do repositorio publico:**  
+
+**Como executar ou acessar a landing page:**  
+
+**Principais entregas demonstradas:**
+
+- Branch HTML5 com `index.html` puro.
+- Branch CSS3 com stylesheet responsivo separado.
+- Branch de integracao com HTML conectado ao CSS.
+- Validacao da responsividade e do conteudo.
+
+**Itens incompletos ou fora do escopo:**
+
+- Nao ha JavaScript nesta atividade.
+- A pagina e estatica e focada na pratica de Scrum + Git.
+
+---
+
+## Observacoes / Bloqueios
+
+- A separacao entre HTML sem hooks e CSS com seletores planejados foi intencional para criar uma atividade real de integracao na Sprint 2.
+- A comunicacao entre responsaveis deve ser reforcada antes da integracao para alinhar nomes de classes, ids e estrutura esperada.
